@@ -1,0 +1,35 @@
+compile
+pascal(0,2)
+run
+compile
+run
+compile
+run
+compile
+run
+test
+test pascal
+test PascalSuite
+pascal(0,2)
+exit
+pascal(0,2)
+compile
+run
+pascal(0,2)
+scala
+console
+scala
+exit
+compile\
+compile
+run
+console
+compile
+balance("()")
+test
+compile
+balance
+pascal(2,1)
+run
+compile
+submit dehminwu@yahoo.com POYC19kdp8wFAgUE

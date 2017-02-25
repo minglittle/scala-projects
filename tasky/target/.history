@@ -1,0 +1,21 @@
+help
+about
+exit
+compile
+run
+exit
+compile
+console
+exit
+reload
+test
+~test
+compile
+console
+scalastyle
+exit
+show compile:dependencyClasspath
+show test:dependencyClasspath
+reload
+version
+plugins

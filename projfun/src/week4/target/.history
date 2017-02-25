@@ -1,0 +1,9 @@
+compile
+exit
+compile show.sc
+run show.sc
+test show.sc
+compile show.sc
+scala show.sc
+import show.sc
+exit

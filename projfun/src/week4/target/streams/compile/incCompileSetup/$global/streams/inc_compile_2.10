@@ -1,0 +1,117 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+6 items
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Cons.class
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/List.class
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Nil$.class
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Nil.class
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/test$.class
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/test.class
+binary dependencies:
+2 items
+/home/developer/example/projfun/src/week4/List.scala -> /home/developer/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/developer/example/projfun/src/week4/List.scala -> /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+6 items
+/home/developer/example/projfun/src/week4/List.scala -> week4.Cons
+/home/developer/example/projfun/src/week4/List.scala -> week4.List
+/home/developer/example/projfun/src/week4/List.scala -> week4.Nil
+/home/developer/example/projfun/src/week4/List.scala -> week4.Nil$
+/home/developer/example/projfun/src/week4/List.scala -> week4.test
+/home/developer/example/projfun/src/week4/List.scala -> week4.test$
+used names:
+27 items
+/home/developer/example/projfun/src/week4/List.scala -> <init>
+/home/developer/example/projfun/src/week4/List.scala -> Any
+/home/developer/example/projfun/src/week4/List.scala -> AnyRef
+/home/developer/example/projfun/src/week4/List.scala -> Boolean
+/home/developer/example/projfun/src/week4/List.scala -> Cons
+/home/developer/example/projfun/src/week4/List.scala -> HeadTail
+/home/developer/example/projfun/src/week4/List.scala -> List
+/home/developer/example/projfun/src/week4/List.scala -> Nil
+/home/developer/example/projfun/src/week4/List.scala -> NoSuchElementException
+/home/developer/example/projfun/src/week4/List.scala -> Nothing
+/home/developer/example/projfun/src/week4/List.scala -> Object
+/home/developer/example/projfun/src/week4/List.scala -> Predef
+/home/developer/example/projfun/src/week4/List.scala -> String
+/home/developer/example/projfun/src/week4/List.scala -> T
+/home/developer/example/projfun/src/week4/List.scala -> _root_
+/home/developer/example/projfun/src/week4/List.scala -> com
+/home/developer/example/projfun/src/week4/List.scala -> ctx
+/home/developer/example/projfun/src/week4/List.scala -> head
+/home/developer/example/projfun/src/week4/List.scala -> jndi
+/home/developer/example/projfun/src/week4/List.scala -> package
+/home/developer/example/projfun/src/week4/List.scala -> scala
+/home/developer/example/projfun/src/week4/List.scala -> sun
+/home/developer/example/projfun/src/week4/List.scala -> tail
+/home/developer/example/projfun/src/week4/List.scala -> test
+/home/developer/example/projfun/src/week4/List.scala -> toolkit
+/home/developer/example/projfun/src/week4/List.scala -> week4
+/home/developer/example/projfun/src/week4/List.scala -> x
+product stamps:
+6 items
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Cons.class -> lastModified(1487543581000)
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/List.class -> lastModified(1487543581000)
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Nil$.class -> lastModified(1487543581000)
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/Nil.class -> lastModified(1487543581000)
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/test$.class -> lastModified(1487543581000)
+/home/developer/example/projfun/src/week4/target/scala-2.10/classes/week4/test.class -> lastModified(1487543581000)
+source stamps:
+1 items
+/home/developer/example/projfun/src/week4/List.scala -> hash(6f67a182c53a63fc3202e22d0338487f4c89b15f)
+binary stamps:
+2 items
+/home/developer/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> lastModified(1442568926000)
+/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar -> lastModified(1444315137000)
+class names:
+2 items
+/home/developer/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.Boolean
+/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/developer/example/projfun/src/week4/List.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBDV7ogAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAcc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwGkBANXQABm5vdGlmeXNxAH4ADI5dy5l0AAR0ZXN0c3EAfgAMrLOJEXQAAXhzcQB+AAwot6/FdAADTmlsc3EAfgAM7FXegXQABHdhaXRzcQB+AAybYdO1dAANJGFzSW5zdGFuY2VPZnNxAH4ADG7Y0NJ0AAZlcXVhbHNzcQB+AAxrE06tdAAEaGVhZHNxAH4ADGV6Vu90AAxhc0luc3RhbmNlT2ZzcQB+AAyPz5kldAAMc3luY2hyb25pemVkc3EAfgAM5SNyH3QADSRpc0luc3RhbmNlT2ZzcQB+AAwuBEpIdAAEdGFpbHNxAH4ADI3zld50AARDb25zc3EAfgAMxrVaoHQACW5vdGlmeUFsbHNxAH4ADPYQZw50AAxpc0luc3RhbmNlT2ZzcQB+AAwiRtH4dAAGPGluaXQ+c3EAfgAM4+alSnQAAj09c3EAfgAM0wG66XQABWNsb25lc3EAfgAMDb99tXQACHRvU3RyaW5nc3EAfgAMx5yuuXQAAiE9c3EAfgAMkCRNTHQACGdldENsYXNzc3EAfgAMGrUwlHQABExpc3RzcQB+AAwcCha8dAAHaXNFbXB0eXNxAH4ADEkHr/x0AAJuZXNxAH4ADFZqEUp0AAJlcXNxAH4ADEaqpZp0AAIjI3NxAH4ADMDjZiB0AAhmaW5hbGl6ZXNxAH4ADBMEGP10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAF0AAp3ZWVrNC5MaXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAFzcgAXeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXJnaVXb43KQawIABlsAC2Fubm90YXRpb25zcQB+AFRMAAJpZHEAfgANTAAKbG93ZXJCb3VuZHQAEEx4c2J0aS9hcGkvVHlwZTtbAA50eXBlUGFyYW1ldGVyc3EAfgBRTAAKdXBwZXJCb3VuZHEAfgBiTAAIdmFyaWFuY2V0ABRMeHNidGkvYXBpL1ZhcmlhbmNlO3hwdXEAfgBaAAAAAHQADHdlZWs0Lkxpc3QuVHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdOb3RoaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB2dXEAfgBfAAAAAHNxAH4AZ3QAA0FueXEAfgBvfnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACUNvdmFyaWFudH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4Af3QABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgBpc3EAfgCHc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE9MAAlpbmhlcml0ZWRxAH4AT0wAB3BhcmVudHNxAH4AT3hxAH4AanNxAH4Ah3VxAH4ASgAAAABzcQB+AId1cQB+AEoAAAAAc3EAfgCHdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AGd0AAZPYmplY3RzcQB+AG1zcQB+AHB1cQB+AHMAAAADc3EAfgB1dAAEamF2YXNxAH4AdXQABGxhbmdxAH4AenNxAH4AZ3EAfgB9c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXEAfgB4cQB+AHpzcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAAKd2VlazQuQ29uc3VxAH4AXwAAAAFzcQB+AGF1cQB+AFoAAAAAdAAMd2VlazQuQ29ucy5UcQB+AGt1cQB+AF8AAAAAcQB+AHx+cQB+AH50AAlJbnZhcmlhbnR+cQB+AIJ0AAhDbGFzc0RlZnVxAH4AhQAAAABzcQB+AIdxAH4Ai3NxAH4Ah3NxAH4AjXNxAH4Ah3VxAH4ASgAAAABzcQB+AId1cQB+AEoAAAAAc3EAfgCHdXEAfgCUAAAAA3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AaFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AaXNxAH4AZ3QABExpc3RzcQB+AG1zcQB+AHB1cQB+AHMAAAACc3EAfgB1dAAFd2VlazRxAH4AenVxAH4AlAAAAAFzcgAWeHNidGkuYXBpLlBhcmFtZXRlclJlZj/Y4zkALHOwAgABTAACaWRxAH4ADXhxAH4AaXQADHdlZWs0LkNvbnMuVHNxAH4AZ3EAfgCXc3EAfgBtc3EAfgBwdXEAfgBzAAAAA3NxAH4AdXEAfgCcc3EAfgB1cQB+AJ5xAH4AenNxAH4AZ3EAfgB9c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXEAfgB4cQB+AHpzcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAAJd2VlazQuTmlsdXEAfgBfAAAAAH5xAH4AgnQABk1vZHVsZXVxAH4AhQAAAABzcQB+AIdxAH4Ai3NxAH4Ah3NxAH4AjXNxAH4Ah3VxAH4ASgAAAABzcQB+AId1cQB+AEoAAAAAc3EAfgCHdXEAfgCUAAAAA3NxAH4Au3NxAH4AZ3EAfgC/c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXQABXdlZWs0cQB+AHp1cQB+AJQAAAABc3EAfgBncQB+AGxzcQB+AG1zcQB+AHB1cQB+AHMAAAACc3EAfgB1cQB+AHhxAH4AenNxAH4AZ3EAfgCXc3EAfgBtc3EAfgBwdXEAfgBzAAAAA3NxAH4AdXEAfgCcc3EAfgB1cQB+AJ5xAH4AenNxAH4AZ3EAfgB9cQB+AO5zcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAAKd2VlazQudGVzdHVxAH4AXwAAAABxAH4A2XVxAH4AhQAAAABzcQB+AIdxAH4Ai3NxAH4Ah3NxAH4AjXNxAH4Ah3VxAH4ASgAAAABzcQB+AId1cQB+AEoAAAAAc3EAfgCHdXEAfgCUAAAAAnNxAH4AZ3EAfgCXc3EAfgBtc3EAfgBwdXEAfgBzAAAAA3NxAH4AdXEAfgCcc3EAfgB1cQB+AJ5xAH4AenNxAH4AZ3EAfgB9c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXEAfgB4cQB+AHp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV3ZWVrNHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWliBueF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABDL2hvbWUvZGV2ZWxvcGVyL2V4YW1wbGUvcHJvamZ1bi9zcmMvd2VlazQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFG9noYLFOmP8MgLiLQM4SH9MibFf
+external apis:
+0 items
+source infos:
+1 items
+/home/developer/example/projfun/src/week4/List.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWliBueF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL2RldmVsb3Blci9leGFtcGxlL3Byb2pmdW4vc3JjL3dlZWs0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv

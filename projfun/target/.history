@@ -1,0 +1,6 @@
+scala Hello
+compile
+scala
+compile List.scala
+cd projfun
+exit
