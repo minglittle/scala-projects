@@ -4,7 +4,7 @@
 		module="progfun2-quickcheck_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170327193149"
+		publication="20170402133541"
 	>
 		<description>
 		progfun2-quickcheck
@@ -37,6 +37,5 @@
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="compile->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.10" conf="test->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.12.1" conf="compile->default(compile)"/>
-		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -25,3 +25,33 @@ compile
 exit
 compile
 exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compil
+compile
+import scalacheck
+exit
+compile
+  lazy val genHeap: Gen[H] = for {
+    x <- arbitrary[Int]
+    h <- oneOf(empty, genHeap)
+  } yield insert(x, h)
+compile
+submit dehminwu@yahoo.com Eiklc28OFH2O5qXv
+test
+compile
+submit dehminwu@yahoo.com deZYmPhxJpbgavDi
+compile
+test
+submit dehminwu@yahoo.com deZYmPhxJpbgavDi
+exit

@@ -1,131 +1,245 @@
 [0m[[0minfo[0m] [0mUpdating {file:/home/developer/example/quickcheck/}root...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ba226bc[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.12.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.12.1] org.scala-lang#scala-library;2.12.1[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.12;2.2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;2.2.4 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.12;2.2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.12;2.2.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/.ivy2/local/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/.activator/repository/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/activator-dist-1.3.12/repository/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe-releases: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releasez: no ivy file found for org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[33mwarn[0m] [0m	module not found: org.scalatest#scalatest_2.12;2.2.4[0m
-[0m[[33mwarn[0m] [0m==== local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/.ivy2/local/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== activator-launcher-local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/.activator/repository/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== activator-local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/activator-dist-1.3.12/repository/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== public: tried[0m
-[0m[[33mwarn[0m] [0m  https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[33mwarn[0m] [0m==== typesafe-releases: tried[0m
-[0m[[33mwarn[0m] [0m  http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest_2.12/2.2.4/scalatest_2.12-2.2.4.pom[0m
-[0m[[33mwarn[0m] [0m==== typesafe-ivy-releasez: tried[0m
-[0m[[33mwarn[0m] [0m  http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest_2.12/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.12;1.13.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a61909[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.12;1.13.4[0m
-[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.12;1.13.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f5c1580[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.11;1.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.11;1.12.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.11;1.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-sbt#test-interface;1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
 [0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -136,298 +250,336 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest;3.0.1 [test->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest;3.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest;3.0.1 {test=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest;3.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest;3.0.1 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/.ivy2/local/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/.activator/repository/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/developer/activator-dist-1.3.12/repository/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	typesafe-releases: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releasez: no ivy file found for org.scalatest#scalatest;3.0.1[0m
-[0m[[33mwarn[0m] [0m	module not found: org.scalatest#scalatest;3.0.1[0m
-[0m[[33mwarn[0m] [0m==== local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/.ivy2/local/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== activator-launcher-local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/.activator/repository/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== activator-local: tried[0m
-[0m[[33mwarn[0m] [0m  /home/developer/activator-dist-1.3.12/repository/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
-[0m[[33mwarn[0m] [0m==== public: tried[0m
-[0m[[33mwarn[0m] [0m  https://repo1.maven.org/maven2/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[33mwarn[0m] [0m==== typesafe-releases: tried[0m
-[0m[[33mwarn[0m] [0m  http://repo.typesafe.com/typesafe/releases/org/scalatest/scalatest/3.0.1/scalatest-3.0.1.pom[0m
-[0m[[33mwarn[0m] [0m==== typesafe-ivy-releasez: tried[0m
-[0m[[33mwarn[0m] [0m  http://repo.typesafe.com/typesafe/ivy-releases/org.scalatest/scalatest/3.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;2.2.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.12;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.11;1.12.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.12;1.13.4 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scalatest#scalatest;3.0.1 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->default][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.12.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.12.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.12.1] org.scala-lang#scala-reflect;2.12.1[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.12.1->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.12.1->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.12;1.0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->jline#jline;2.14.1 [optional->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving jline#jline;2.14.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.14.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.14.1[0m
-[0m[[0mdebug[0m] [0m	found jline#jline;2.14.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->jline#jline;2.14.1 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.13.4!scalacheck_2.12.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.1!scalacheck_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.14.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2102ms :: artifacts dl 13ms[0m
-[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
-[0m[[33mwarn[0m] [0m	::          UNRESOLVED DEPENDENCIES         ::[0m
-[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
-[0m[[33mwarn[0m] [0m	:: org.scalatest#scalatest_2.12;2.2.4: not found[0m
-[0m[[33mwarn[0m] [0m	:: org.scalatest#scalatest;3.0.1: not found[0m
-[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT compile produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT runtime produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT test produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT provided produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT optional produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT compile-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT runtime-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT test-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT plugin produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT sources produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT docs produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT pom produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.12;0.1-SNAPSHOT scala-tool produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.12-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2102ms resolve - 13ms download)[0m
-[0m[[33mwarn[0m] [0m[0m
-[0m[[33mwarn[0m] [0m	Note: Unresolved dependencies path:[0m
-[0m[[33mwarn[0m] [0m		org.scalatest:scalatest_2.12:2.2.4 (/home/developer/example/quickcheck/project/StudentBuildLike.scala#L27)[0m
-[0m[[33mwarn[0m] [0m		  +- progfun2-quickcheck:progfun2-quickcheck_2.12:0.1-SNAPSHOT[0m
-[0m[[33mwarn[0m] [0m		org.scalatest:scalatest:3.0.1 (/home/developer/example/quickcheck/build.sbt#L11-12)[0m
-[0m[[33mwarn[0m] [0m		  +- progfun2-quickcheck:progfun2-quickcheck_2.12:0.1-SNAPSHOT[0m
-sbt.ResolveException: unresolved dependency: org.scalatest#scalatest_2.12;2.2.4: not found
-unresolved dependency: org.scalatest#scalatest;3.0.1: not found
-	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:294)
-	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
-	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
-	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
-	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
-	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)
-	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)
-	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)
-	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
-	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
-	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
-	at xsbt.boot.Using$.withResource(Using.scala:10)
-	at xsbt.boot.Using$.apply(Using.scala:9)
-	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
-	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
-	at xsbt.boot.Locks$.apply0(Locks.scala:31)
-	at xsbt.boot.Locks$.apply(Locks.scala:28)
-	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)
-	at sbt.IvySbt.withIvy(Ivy.scala:127)
-	at sbt.IvySbt.withIvy(Ivy.scala:124)
-	at sbt.IvySbt$Module.withModule(Ivy.scala:155)
-	at sbt.IvyActions$.updateEither(IvyActions.scala:168)
-	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1392)
-	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1388)
-	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1422)
-	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1420)
-	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
-	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1425)
-	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1419)
-	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
-	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1442)
-	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1371)
-	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1325)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
-	at sbt.std.Transform$$anon$4.work(System.scala:63)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
-	at sbt.Execute.work(Execute.scala:235)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-[0m[[31merror[0m] [0m(*:[31mupdate[0m) sbt.ResolveException: unresolved dependency: org.scalatest#scalatest_2.12;2.2.4: not found[0m
-[0m[[31merror[0m] [0munresolved dependency: org.scalatest#scalatest;3.0.1: not found[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 579ms :: artifacts dl 9ms[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT compile produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT runtime produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT test produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT provided produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT optional produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT compile-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT runtime-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT test-internal produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT plugin produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT sources produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT docs produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT pom produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun2-quickcheck#progfun2-quickcheck_2.11;0.1-SNAPSHOT scala-tool produced in /home/developer/example/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (579ms resolve - 9ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
